@@ -1,0 +1,41 @@
+// EJEMPLO 1:
+
+$redes: ( //Declaramos el mapa
+  twitter: #55acee,
+  facebook: #3a5795,
+  send-mail: #c25e30
+);
+
+// Usamos un each para usar los valores del mapa
+@each $redSocial, $color in $redes {
+  .btn-#{$redSocial} {
+    color: #ffffff;
+    border: 0;
+    padding: 10px;
+    border-radius: 05px;
+    cursor: pointer;
+    background-color: $color;
+  }
+}
+
+// EJEMPLO 2:
+
+$estilos: (
+  color: #3673D9,
+  derecha: right,
+  centro: center,
+  izquierda: left,
+  tFuente: 35px,
+  rem: 1rem
+);
+
+.contenedor {
+  background-color: map-get($redes, facebook);
+  text-align: map-get($estilos, centro);
+  padding: map-get($estilos, rem);
+  font-size: map-get($estilos, tFuente);
+}
+
+.wrap {
+  text-align: map-get($estilos, derecha);
+}

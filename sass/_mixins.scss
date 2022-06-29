@@ -1,0 +1,70 @@
+// // EJEMPLO 1:
+
+// @mixin sizes($width, $height) {
+//   height: $height;
+//   width: $width;
+// }
+
+// @mixin displayFlex {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+// }
+
+// @mixin btnRoot($width, $height, $color, $borderColor, $textColor) {
+//   display: flex;
+//   justify-content: center;
+//   width: $width;
+//   height: $height;
+//   align-items: center;
+//   background-color: $color;
+//   border-radius: 05px;
+//   border: 01px solid $borderColor;
+//   color: $textColor;
+// }
+
+// .btnAceptar {
+//   @include btnRoot(180px, 40px, #434343, #222222, #ffffff);
+// }
+
+// .btnCancelar {
+//   @include btnRoot(200px, 50px, #6e3131, #57afaa, #ffffff);
+// }
+
+// .btnOpt {
+//   @include btnRoot(250px, 80px, #47316e, #afa857, #ffffff )
+// }
+
+
+
+// // .box {
+// //   @include sizes(500px, 50px);
+// //   @extend %displayFlex;
+// //   border: 02px solid black;
+// // }
+
+// // .caja {
+// //   @include sizes(100px, 200px);
+// //   border: 01px solid #cccccc;
+// //   background-color: $blue;
+// //   color: white;
+// // }
+
+
+
+
+
+
+
+
+
+
+
+
+// // EJEMPLO 2:
+
+
+
+// // .box {
+// //   @include display-flex();
+// // }

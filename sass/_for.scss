@@ -1,0 +1,13 @@
+@for $i from 1 through 3 {
+  section:nth-child(#{$i}) {
+    font-size: 12px + $i;
+    color: darken(rgb(222, 222, 222), $i * 5%);
+  }
+}
+
+@for $i from 1 to 4 {
+  div:nth-child(#{$i}) {
+    border: $i + 1px solid lighten(#434343, $i *15%);
+    margin-top: $i * 2%;
+  }
+}

@@ -1,0 +1,152 @@
+body {
+  background-color: white;
+  color: green;
+}
+@media only screen and (min-width: 1024px) {
+  body h1 {
+    font-size: 50px;
+  }
+  body h3 {
+    font-size: 35px;
+  }
+  body p {
+    background-color: red;
+    font-size: 14px;
+  }
+}
+
+section:nth-child(1) {
+  font-size: 13px;
+  color: #d1d1d1;
+}
+
+section:nth-child(2) {
+  font-size: 14px;
+  color: #c5c5c5;
+}
+
+section:nth-child(3) {
+  font-size: 15px;
+  color: #b8b8b8;
+}
+
+div:nth-child(1) {
+  border: 2px solid dimgray;
+  margin-top: 2%;
+}
+
+div:nth-child(2) {
+  border: 3px solid #909090;
+  margin-top: 4%;
+}
+
+div:nth-child(3) {
+  border: 4px solid #b6b6b6;
+  margin-top: 6%;
+}
+
+.box-40px {
+  font-size: 30px;
+  height: 40px;
+  width: 40px;
+  margin-top: 30px;
+}
+
+.box-50px {
+  font-size: 40px;
+  height: 50px;
+  width: 50px;
+  margin-top: 40px;
+}
+
+.box-80px {
+  font-size: 70px;
+  height: 80px;
+  width: 80px;
+  margin-top: 70px;
+}
+
+.box-100px {
+  font-size: 90px;
+  height: 100px;
+  width: 100px;
+  margin-top: 90px;
+}
+
+.btn-twitter {
+  color: #ffffff;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #55acee;
+}
+
+.btn-facebook {
+  color: #ffffff;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #3a5795;
+}
+
+.btn-send-mail {
+  color: #ffffff;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #c25e30;
+}
+
+.contenedor {
+  background-color: #3a5795;
+  text-align: center;
+  padding: 1rem;
+  font-size: 35px;
+}
+
+.wrap {
+  text-align: right;
+}
+
+.boton {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.boton--aceptar {
+  background-color: green;
+  color: yellow;
+}
+
+.boton--cancelar {
+  background-color: red;
+  color: yellow;
+}
+
+.boton--dos {
+  background-color: green;
+  color: yellow;
+}
+
+.boton--tres {
+  background-color: red;
+  color: yellow;
+}
+
+.box_uno {
+  width: 360px;
+  background-color: #4285F4;
+}
+
+.box_dos {
+  width: 450px;
+  background-color: #33D374;
+}/*# sourceMappingURL=main.css.map */

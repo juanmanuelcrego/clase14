@@ -1,0 +1,42 @@
+// EJEMPLO 1:
+
+.boton {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 01px solid black;
+}
+
+.boton--aceptar {
+  background-color: green;
+  color: yellow;
+}
+
+.boton--cancelar {
+  background-color: red;
+  color: yellow;
+}
+
+// EJEMPLO 2:
+%boton {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 01px solid black;
+}
+
+.boton--dos {
+  background-color: green;
+  color: yellow;
+}
+
+.boton--tres {
+  background-color: red;
+  color: yellow;
+}

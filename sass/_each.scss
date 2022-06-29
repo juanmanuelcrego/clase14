@@ -1,0 +1,8 @@
+@each $size in $sizes {
+  .box-#{$size} {
+    font-size: $size - 10px;
+    height: $size;
+    width: $size;
+    margin-top: $size - 10px;
+  }
+}

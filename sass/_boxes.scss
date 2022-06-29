@@ -1,0 +1,9 @@
+.box_uno {
+  width: $ancho/2; //ancho de 360px
+  background-color: $blue;
+}
+
+.box_dos {
+  width: ($ancho/2)+90px;
+  background-color: $green;
+}
